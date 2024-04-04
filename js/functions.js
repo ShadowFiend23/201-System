@@ -127,7 +127,7 @@ $(function(){
     }
 
     $("#logoutBtn").on("click",function(){
-        window.location.href = "http://201.occcicoop.com/logout.php"
+        window.location.href = "/logout.php"
     })
     $('.select2#slctPosition').select2({
         placeholder: "Please Select Position"
